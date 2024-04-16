@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=M+PLUS+1p&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="first-section" style="padding-top: 0;" class="section-pedding-light">
+        <div id="left-div-with-text">
+            <p id="orange-title">Hi, It's me</p>
+            <h1 id="name-and-surname"></h1>
+            <h1 id="orange-white-title">
+                <span class="white-text">And I'm a </span>
+                <span class="orange-text" style="color: #F86F03;"> Frontend Developer</span>
+            </h1>
+            <p id="short-description"></p>
+            <button id="button-one" class="button" style="color:white; background-color: #F86F03;">Download CV</button>
+        </div>
+        <div id="div-right-img">
+            <img src="prva.png" alt="picture">
+        </div>
+    </div>
+    
+    <div id="second-section" class="section-pedding-light-dark">
+        <div class="titles">
+            <h1 class="title-one">
+                <span class="white" style="color: white; margin-right: 13px;">About</span>
+                <span class="orange" style="color: #F86F03;">me</span>
+            </h1>
+            <div class="line-title"></div>
+        </div>
+        <div id="img-and-text">
+            <div id="img-left">
+                <img src="about-img.png" alt="picture">
+            </div>
+            <div id="text-right">
+                <p id="title-job"></p>
+                <p id="paragraph-one" class="paragraphs"></p>
+                <p id="paragraph-two" class="paragraphs"></p>
+                <button id="button-read-more" style="background-color: white; color: #461959;" class="button">Read more...</button>
+            </div>
+        </div>
+    </div>
+    
+   <div id="section-three" class="section-pedding-light">
+        <div class="titles">
+            <h1 class="title-one">
+                <span class="white" style="color: white; margin-right: 13px;">My</span>
+                <span class="orange" style="color: #F86F03;">Services</span>
+            </h1>
+            <div class="line-title"></div>
+        </div>
+        <div id="new-section" class="new-section"></div>
+    </div>
+
+    <div id="section-four" class="section-pedding-light-dark">
+        <div class="titles">
+            <h1 class="title-one">
+                <span class="white" style="color: white; margin-right: 13px;">My</span>
+                <span class="orange" style="color: #F86F03;">Skills</span>
+            </h1>
+            <div class="line-title"></div>
+        </div>
+        <div id="main-div">
+            <div id="left-name"></div>
+            <div id="right-value"></div>
+        </div>
+    </div>
+
+        <div id="div-forms" class="section-pedding-light">
+            <div class="titles">
+                <h1 class="title-one">
+                    <span class="white" style="color: white;">Contact</span>
+                </h1>
+                <div class="line-title"></div>
+            </div>
+            <div id="total-div">
+                <div id="div-icons-text">
+                    <div class="icon-text-row">
+                        <img src="phone-alt (3).svg" alt="Icon 1">
+                        <p>+8801863-931220 <br> +8801567-953483</p>
+                    </div>
+                    <div class="icon-text-row">
+                        <img src="envelope.svg" alt="Icon 2">
+                        <p>mdriead.bd@gmail.com</p>
+                    </div>
+                    <div class="icon-text-row">
+                        <img src="location-arrow.svg" alt="Icon 3">
+                        <p>Zirabo, Ashulia, Savar, Dhaka</p>
+                    </div>
+                </div>
+
+                <div id="div-right-forms">
+
+                    <div id="name-email">
+                        <input type="text" id="fullName" placeholder="Full Name" required>
+
+                        <input type="email" id="emailAddress" name="emailAddress" placeholder="Email Address" required>
+                    </div>
+
+                    <div id="number-subject">
+                        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
+            
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+
+                    <div id="textarea-send">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            
+                        <button id="new-button" type="button" onclick="displayFormData()">Send</button>
+                    </div>
+            </div>
+            </div>
+            
+        </div>
+    <script src="mainn.js"></script>
+</body>
+</html>

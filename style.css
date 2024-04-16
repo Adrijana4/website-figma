@@ -1,0 +1,653 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: 0%;
+}
+
+#main {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.section-pedding-light{
+    padding: 70px 148px 160px 148px;
+    background-color: #31065A;
+}
+
+.section-pedding-light-dark{
+    padding: 70px 148px 160px 148px;
+    background-color: #170550;
+}
+
+#first-section{
+    display: flex;
+    justify-content: center;
+}
+
+#left-div-with-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+}
+
+#orange-title{
+    color: #F86F03;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Exo 2";
+    margin: 0%;
+    padding: 0%;
+}
+
+#orange-white-title {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    font-family: "Exo 2";
+    margin: 0%;
+    padding: 0%;
+}
+
+#name-and-surname {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Exo 2";
+}
+
+#short-description{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    font-family: "Exo 2";
+}
+
+.button {
+    width: 200px;
+    height: 40.874px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border:none;
+    color: #FFF;
+    font-family: "Exo 2";
+}
+
+#div-right-img {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: flex-end;
+    align-items: flex-start;
+}
+
+#div-right-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    #first-section {
+        flex-direction: column-reverse;
+        padding-bottom: 0%;
+        padding: 0 30px;
+    }
+    
+    #left-div-with-text{
+        margin-bottom: 0%;
+        padding-top: 40px;
+    }
+
+    #div-right-img {
+        width: 100%;
+    }
+
+    #div-right-img {
+        order: -1;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    #first-section {
+        padding: 30px 50px 0;
+    }
+    #orange-title{
+        font-size: 18px;
+        font-weight: 390;
+        padding-top: 20px;
+    }
+    #name-and-surname {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #orange-white-title {
+        font-size: 25px;
+        font-weight: 450;
+    }
+    #short-description{
+        font-size: 15px;
+        font-weight: 180;
+    }
+    .button {
+        width: 100px;
+        height: 30.874px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #left-div-with-text{
+        padding-right: 0%;
+    }
+    #div-right-img {
+        width: 70%;
+    }
+
+}
+
+.title-one {
+    display: flex;
+    font-family: "Exo 2";
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line-title {
+    height: 1px;  
+    background-color: white;
+    width: 230px;
+    display: block; 
+}
+
+#img-and-text{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+#img-left{
+    width: 70%;
+}
+
+#img-left img{
+    width: 80%;
+    padding-top: 50px;
+}
+
+#text-right{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+#title-job {
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 0%;
+}
+
+.paragraphs {
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1330px) {
+        #img-and-text {
+            padding-bottom: 0%;
+            padding: 0 0px;
+        }
+        .section-pedding-light {
+            padding: 70px 148px 0px 148px;
+            background-color: #31065A;
+        }
+        .title-one {
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 7px;
+        }
+        
+        #img-and-text{
+            margin-top:80px;
+        }
+        
+        #img-left img,
+        #text-right,
+        #img-left{
+            width: 100%;
+        }
+
+        #title-job {
+            font-size: 30px;
+            font-weight: 500;
+        
+        }
+        
+        .paragraphs {
+            font-size: 14px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        .button {
+            height: 35.874px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+    }
+    @media only screen and (max-width: 1170px) {
+        #img-and-text{
+            flex-direction: column-reverse;
+            margin-top: 5px;
+        }
+
+        #img-left {
+            width: 100%;
+            text-align: center;
+        }
+        
+        #img-left img {
+            width: 50%;
+            padding-top: 50px;
+            margin: auto; 
+        }
+        
+        #text-right{
+            align-items: flex-start;
+            justify-content: start;
+            width: 100%;
+            padding-left: 0%;
+        }
+        
+        #title-job {
+            font-size: 32px;
+            font-weight: 500;
+        
+        }
+        
+        .paragraphs {
+            font-size: 13px;
+            font-weight: 400;
+            padding-bottom: 10px;
+        }
+
+    }
+
+    @media only screen and (max-width: 800px) {
+        .section-pedding-light-dark {
+            padding: 11px 13px 20px 13px;
+        }
+        .button {
+            width: 100px;
+            height: 30.874px;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .titles{
+            display: flex;
+            align-items: flex-start;
+        }
+        #img-left img {
+            display: block;
+        }
+        
+    }
+
+    #new-section {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        width: 100%;
+        height: 399px;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 30px; 
+    }
+    
+    .card img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .card h2 {
+        color: #170550;
+        font-family: "Exo 2";
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .card p {
+        color: #170550;
+        text-align: center;
+        font-family: "Exo 2";
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+   @media only screen and (max-width: 1026px) {
+        #new-section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .card {
+            width: 250px;
+            height: 300px;
+            flex-wrap: wrap;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+        }
+        
+        .card img {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto; 
+        }
+        
+        
+        .card h2 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .card p {
+
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .section-pedding-light {
+            padding: 70px 148px 0px 148px;
+    }
+
+}
+    @media only screen and (max-width: 950px) {
+
+        .section-pedding-light {
+            padding: 15px 10px 60px 10px;
+            background-color: #31065A;
+        }
+        #new-section {
+            padding: 0px 10px 30px 10px;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .card {
+            width: 200px;
+            height: 320px;
+        }
+
+    }
+
+    #main-div {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 140px;
+        padding-bottom: 71px;
+    }
+    
+    #left-name {
+        padding-right: 30px;
+    }
+    
+    #right-value{
+        padding-left: 30px;
+
+    }
+
+    #left-name p, #right-value p {
+        color: #FFF;
+        font-family: "Exo 2";
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    
+    @media screen and (max-width: 600px) {
+    
+        #left-name p, #right-value p {
+            line-height: 30px;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 40px;
+        }
+    }
+
+#total-div{
+    display:flex;
+    padding-top: 250px;
+}
+
+#div-icons-text {
+    display: flex;
+    flex-direction: column; 
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 180px;
+}
+
+.icon-text-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-text-row img {
+    margin-right: 25px;
+    width: 25px;
+    height: 34.375px;
+}
+
+#div-right-forms {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center; 
+}
+
+
+#name-email,
+#number-subject,
+#textarea-send {
+    margin-bottom: 24px; 
+}
+
+#name-email input {
+    border-radius: 50px;
+    background: #43366A;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 600;
+    width: 657px;
+    height: 55px;
+    border: none;
+    margin-bottom: 24px; 
+    padding-left: 20px;
+
+}
+
+#number-subject {
+    display: flex;
+    justify-content: space-between;
+    width: 112%; 
+}
+#name-email input::placeholder {
+    color: white;
+}
+#number-subject input{
+    border-radius: 50px;
+    background: #43366A;
+    border: none;
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 16px;
+    width: 289px;
+    height:45px;
+    padding-left: 20px;
+    margin-bottom: 24px; 
+    font-weight: 600;
+}
+
+#number-subject input::placeholder {
+    color: white;
+}
+textarea {
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 600;
+    width: 104px;
+    height: 26.125px;
+    width: 657px;
+    height: 203.5px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #43366A;
+    padding: 10px; 
+    margin-bottom: 24px; 
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+#new-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background: #43366A;
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1350px) {
+    #total-div{
+        padding-top:30px;
+        flex-direction: row;
+    }
+
+    #div-icons-text {
+        flex-direction: column; 
+        font-size: 18px;
+        font-weight: 500;
+        padding-top: 100px;
+        width: 30%;
+    }
+
+    #div-right-forms {
+        width: 40%; 
+    }
+    #name-email input {
+        font-size: 14px;
+        font-weight: 500;
+        width: 407px;
+        height: 50px;
+        border: none;
+        margin-bottom: 18px; 
+        padding-left: 20px;
+    
+    }
+    #number-subject input {
+        font-size: 14px;
+        width: 250px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 18px;
+        font-weight: 500;
+    }
+    textarea {
+        font-size: 14px;
+        font-weight: 500;
+        width: 104px;
+        height: 26.125px;
+        width: 407px;
+        height: 143.5px;
+        padding: 10px; 
+        margin-bottom: 18px; 
+    }
+    
+    
+}
+@media only screen and (max-width: 1030px) {
+    #total-div{
+        flex-direction: column;
+    }
+    #div-icons-text {
+        width: 100%;
+        padding-top: 40px;
+        justify-content: center;
+    }
+    
+    #div-icons-text > * {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 880px) {
+    #number-subject{
+        flex-wrap: wrap;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 452px) {
+#total-div{}
+}
